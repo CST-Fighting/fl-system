@@ -2,6 +2,11 @@
 /**
  * Utility for generating mock data for charts and tables
  */
+/**
+ * TaskManagement页面的mock数据
+ * 作用：后端接口未完成时用于前端开发
+ * 接口异常时用于回退展示
+ */
 
 // Generate random number within range
 export const randomNum = (min: number, max: number): number =>
@@ -33,12 +38,12 @@ export const generateSeriesData = (count: number, min: number, max: number): num
 
 // Mock node list
 export const mockNodes = [
-  { id: 'node-01', name: '算力节点-01', ip: '192.168.1.101', cpu: 72, memory: 65, disk: 48, gpu: 55, status: 'running' },
-  { id: 'node-02', name: '算力节点-02', ip: '192.168.1.102', cpu: 45, memory: 52, disk: 33, gpu: 80, status: 'running' },
-  { id: 'node-03', name: '算力节点-03', ip: '192.168.1.103', cpu: 88, memory: 79, disk: 67, gpu: 42, status: 'warning' },
-  { id: 'node-04', name: '算力节点-04', ip: '192.168.1.104', cpu: 23, memory: 31, disk: 25, gpu: 15, status: 'idle' },
-  { id: 'node-05', name: '算力节点-05', ip: '192.168.1.105', cpu: 91, memory: 85, disk: 72, gpu: 93, status: 'critical' },
-  { id: 'node-06', name: '算力节点-06', ip: '192.168.1.106', cpu: 56, memory: 44, disk: 38, gpu: 60, status: 'running' },
+  { id: '1182c3e8ef0f3baa67434864', name: '算力节点-01', ip: '192.168.1.101', cpu: 72, memory: 65, disk: 48, gpu: 55, status: 'running' },
+  { id: '330af596a5c0d344d34d8c21', name: '算力节点-02', ip: '192.168.1.102', cpu: 45, memory: 52, disk: 33, gpu: 80, status: 'running' },
+  { id: '40abf2418246bccc580433bd', name: '算力节点-03', ip: '192.168.1.103', cpu: 88, memory: 79, disk: 67, gpu: 42, status: 'warning' },
+  { id: '91c8c202d797d341235ee765', name: '算力节点-04', ip: '192.168.1.104', cpu: 23, memory: 31, disk: 25, gpu: 15, status: 'idle' },
+  { id: '7b8f750998cd21082e0a1a4e', name: '算力节点-05', ip: '192.168.1.105', cpu: 91, memory: 85, disk: 72, gpu: 93, status: 'critical' },
+  { id: '278605b97df8ae91599bf53b', name: '算力节点-06', ip: '192.168.1.106', cpu: 56, memory: 44, disk: 38, gpu: 60, status: 'running' },
 ];
 
 // Mock task list
@@ -63,3 +68,7 @@ export const mockFraudCities = [
   { name: '重庆', value: 128 },
   { name: '西安', value: 112 },
 ];
+
+
+
+

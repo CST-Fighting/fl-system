@@ -2,10 +2,10 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 from loguru import logger
+from .core.config import settings
+from .core.database import engine,Base
+from .api.routes import resources, tasks, fraud, chat
 
-from app.core.config import settings
-from app.core.database import engine, Base
-from app.api.routes import resources, tasks, fraud, chat
 
 
 @asynccontextmanager

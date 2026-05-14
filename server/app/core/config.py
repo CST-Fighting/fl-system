@@ -1,4 +1,5 @@
 from pydantic_settings import BaseSettings
+
 from typing import Optional
 
 
@@ -13,10 +14,18 @@ class Settings(BaseSettings):
 
     # Server
     HOST: str = "0.0.0.0"
-    PORT: int = 8000
+    PORT: int = 8816
 
     # Database
-    DATABASE_URL: str = "sqlite:///./fl_system.db"
+    DATABASE_URL: str = "postgresql://cn_admin:slwl@10.129.209.249:5433/computing_network?sslmode=prefer"
+    DATABASE_URL_FALLBACK: str = "sqlite:///./fl_system.db"
+    DB_HOST: str = "10.129.209.249"
+    DB_PORT: int = 5433
+    DB_NAME: str = "computing_network"
+    DB_USER: str = "cn_admin"
+    DB_PASSWORD: str = "slwl"
+    DB_ADMIN_USER: str = "postgres"
+    DB_ADMIN_PASSWORD: str = "root"
 
     # Redis (optional, for caching & Celery)
     REDIS_URL: Optional[str] = "redis://localhost:6379/0"

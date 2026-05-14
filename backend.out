@@ -1,0 +1,7 @@
+nohup: 忽略输入并把输出追加到 'nohup.out'
+INFO:     Started server process [3613151]
+INFO:     Waiting for application startup.
+2026-05-14 20:10:01.171 | INFO     | app.main:lifespan:14 - Starting FL System Backend v0.1.0
+2026-05-14 20:10:01.172 | INFO     | app.main:lifespan:17 - Database tables created
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8816 (Press CTRL+C to quit)

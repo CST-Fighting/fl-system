@@ -1,0 +1,270 @@
+nohup: 忽略输入并把输出追加到 'nohup.out'
+[33mThe CJS build of Vite's Node API is deprecated. See https://vite.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+20:29:36 [vite] Internal server error: /data/fl-system/cst/fl-system/src/pages/ComputingSchedule/TaskManagement/index.tsx: Missing semicolon. (906:17)
+
+  904 |                     overflow: 'hidden',
+  905 |                   },
+> 906 |                 }))}
+      |                  ^
+  907 |               />
+  908 |             </Card>
+  909 |           </Col>
+  Plugin: vite:react-babel
+  File: /data/fl-system/cst/fl-system/src/pages/ComputingSchedule/TaskManagement/index.tsx:906:17
+  927|                        return !availableDates.includes(current.format('YYYY-MM-DD'));
+  928|                      }}
+  929|                      allowClear={false}
+     |                           ^
+  930|                      size="small"
+  931|                      style={{ width: 160 }}
+      at constructor (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:365:19)
+      at TypeScriptParserMixin.raise (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:6599:19)
+      at TypeScriptParserMixin.semicolon (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:6895:10)
+      at TypeScriptParserMixin.parseReturnStatement (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:13143:12)
+      at TypeScriptParserMixin.parseStatementContent (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:12798:21)
+      at TypeScriptParserMixin.parseStatementContent (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:12767:17)
+      at TypeScriptParserMixin.parseStatementListItem (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:12747:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:13316:61)
+      at TypeScriptParserMixin.parseBlockBody (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:13309:10)
+      at TypeScriptParserMixin.parseBlock (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:13297:10)
+      at TypeScriptParserMixin.parseFunctionBody (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:12100:24)
+      at TypeScriptParserMixin.parseArrowExpression (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:12075:10)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11687:12)
+      at TypeScriptParserMixin.parseExprAtom (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11331:23)
+      at TypeScriptParserMixin.parseExprAtom (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:4764:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:9786:20)
+      at /data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10800:39
+      at TypeScriptParserMixin.allowInAnd (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:12426:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10800:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:12493:17)
+      at TypeScriptParserMixin.parseExprListItem (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:12175:18)
+      at TypeScriptParserMixin.parseCallExpressionArguments (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11252:22)
+      at TypeScriptParserMixin.parseCoverCallAndAsyncArrowHead (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11186:29)
+      at TypeScriptParserMixin.parseSubscript (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11120:19)
+      at TypeScriptParserMixin.parseSubscript (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:9272:18)
+      at TypeScriptParserMixin.parseSubscripts (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11094:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11085:17)
+      at TypeScriptParserMixin.parseUpdate (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:9786:20)
+      at TypeScriptParserMixin.parseExpressionBase (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10780:39
+      at TypeScriptParserMixin.allowInAnd (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:12426:12)
+      at TypeScriptParserMixin.parseExpression (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10780:17)
+      at TypeScriptParserMixin.jsxParseExpressionContainer (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:4632:31)
+      at TypeScriptParserMixin.jsxParseAttributeValue (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:4604:21)
+20:30:19 [vite] Internal server error: /data/fl-system/cst/fl-system/src/pages/ComputingSchedule/TaskManagement/index.tsx: Unexpected token, expected "," (840:17)
+
+  838 |                     overflow: 'hidden',
+  839 |                   },
+> 840 |                 };})}
+      |                  ^
+  841 |               />
+  842 |             </Card>
+  843 |           </Col>
+  Plugin: vite:react-babel
+  File: /data/fl-system/cst/fl-system/src/pages/ComputingSchedule/TaskManagement/index.tsx:840:17
+  864|                  items={nodeStatusGroups.map((group: NodeStatusGroup) => {
+  865|                    const filteredItems = showActiveOnly
+  866|                      ? group.items.filter((n) => n.cpu_percent > 0 || n.gpu_percent > 0)
+     |           ^
+  867|                      : group.items;
+  868|                    return {
+      at constructor (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:365:19)
+      at TypeScriptParserMixin.raise (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:6599:19)
+      at TypeScriptParserMixin.unexpected (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:6619:16)
+      at TypeScriptParserMixin.expect (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:6899:12)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11661:14)
+      at TypeScriptParserMixin.parseExprAtom (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11331:23)
+      at TypeScriptParserMixin.parseExprAtom (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:4764:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:9786:20)
+      at TypeScriptParserMixin.parseFunctionBody (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:12093:24)
+      at TypeScriptParserMixin.parseArrowExpression (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:12075:10)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11687:12)
+      at TypeScriptParserMixin.parseExprAtom (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11331:23)
+      at TypeScriptParserMixin.parseExprAtom (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:4764:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:9786:20)
+      at /data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10800:39
+      at TypeScriptParserMixin.allowInAnd (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:12426:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10800:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:12493:17)
+      at TypeScriptParserMixin.parseExprListItem (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:12175:18)
+      at TypeScriptParserMixin.parseCallExpressionArguments (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11252:22)
+      at TypeScriptParserMixin.parseCoverCallAndAsyncArrowHead (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11186:29)
+      at TypeScriptParserMixin.parseSubscript (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11120:19)
+      at TypeScriptParserMixin.parseSubscript (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:9272:18)
+      at TypeScriptParserMixin.parseSubscripts (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11094:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11085:17)
+      at TypeScriptParserMixin.parseUpdate (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:9786:20)
+      at TypeScriptParserMixin.parseExpressionBase (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10784:23)
+20:33:29 [vite] Internal server error: /data/fl-system/cst/fl-system/src/pages/ComputingSchedule/TaskManagement/index.tsx: Unexpected token (907:19)
+
+  905 |                     },
+  906 |                   };
+> 907 |                 })})}
+      |                    ^
+  908 |               />
+  909 |             </Card>
+  910 |           </Col>
+  Plugin: vite:react-babel
+  File: /data/fl-system/cst/fl-system/src/pages/ComputingSchedule/TaskManagement/index.tsx:907:19
+  928|                        return !availableDates.includes(current.format('YYYY-MM-DD'));
+  929|                      }}
+  930|                      allowClear={false}
+     |                             ^
+  931|                      size="small"
+  932|                      style={{ width: 160 }}
+      at constructor (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:365:19)
+      at TypeScriptParserMixin.raise (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:6599:19)
+      at TypeScriptParserMixin.unexpected (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:6619:16)
+      at TypeScriptParserMixin.jsxParseIdentifier (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:4569:12)
+      at TypeScriptParserMixin.jsxParseNamespacedName (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:4576:23)
+      at TypeScriptParserMixin.jsxParseAttribute (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:4652:22)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:4667:28)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10043:18)
+      at TypeScriptParserMixin.jsxParseOpeningElementAt (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:4662:17)
+      at TypeScriptParserMixin.jsxParseElementAt (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:4686:33)
+      at TypeScriptParserMixin.jsxParseElementAt (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:4698:32)
+      at TypeScriptParserMixin.jsxParseElementAt (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:4698:32)
+      at TypeScriptParserMixin.jsxParseElementAt (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:4698:32)
+      at TypeScriptParserMixin.jsxParseElementAt (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:4698:32)
+      at TypeScriptParserMixin.jsxParseElementAt (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:4698:32)
+      at TypeScriptParserMixin.jsxParseElement (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:4749:17)
+      at TypeScriptParserMixin.parseExprAtom (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:4759:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10831:21)
+      at /data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:9775:39
+      at TypeScriptParserMixin.tryParse (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:6907:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:9775:18)
+      at /data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10800:39
+      at TypeScriptParserMixin.allowInAnd (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:12426:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10800:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:12493:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11675:28)
+      at TypeScriptParserMixin.parseExprAtom (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11331:23)
+      at TypeScriptParserMixin.parseExprAtom (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:4764:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:9786:20)
+      at TypeScriptParserMixin.parseExpressionBase (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10780:39
+      at TypeScriptParserMixin.allowInAnd (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:12421:16)
+      at TypeScriptParserMixin.parseExpression (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10780:17)
+      at TypeScriptParserMixin.parseReturnStatement (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:13142:28)
+      at TypeScriptParserMixin.parseStatementContent (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:12798:21)
+20:34:06 [vite] Internal server error: /data/fl-system/cst/fl-system/src/pages/ComputingSchedule/TaskManagement/index.tsx: Unexpected token (907:19)
+
+  905 |                     },
+  906 |                   };
+> 907 |                 })}}
+      |                    ^
+  908 |               />
+  909 |             </Card>
+  910 |           </Col>
+  Plugin: vite:react-babel
+  File: /data/fl-system/cst/fl-system/src/pages/ComputingSchedule/TaskManagement/index.tsx:907:19
+  928|                        return !availableDates.includes(current.format('YYYY-MM-DD'));
+  929|                      }}
+  930|                      allowClear={false}
+     |                              ^
+  931|                      size="small"
+  932|                      style={{ width: 160 }}
+      at constructor (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:365:19)
+      at TypeScriptParserMixin.raise (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:6599:19)
+      at TypeScriptParserMixin.unexpected (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:6619:16)
+      at TypeScriptParserMixin.jsxParseIdentifier (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:4569:12)
+      at TypeScriptParserMixin.jsxParseNamespacedName (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:4576:23)
+      at TypeScriptParserMixin.jsxParseAttribute (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:4652:22)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:4667:28)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10043:18)
+      at TypeScriptParserMixin.jsxParseOpeningElementAt (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:4662:17)
+      at TypeScriptParserMixin.jsxParseElementAt (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:4686:33)
+      at TypeScriptParserMixin.jsxParseElementAt (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:4698:32)
+      at TypeScriptParserMixin.jsxParseElementAt (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:4698:32)
+      at TypeScriptParserMixin.jsxParseElementAt (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:4698:32)
+      at TypeScriptParserMixin.jsxParseElementAt (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:4698:32)
+      at TypeScriptParserMixin.jsxParseElementAt (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:4698:32)
+      at TypeScriptParserMixin.jsxParseElement (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:4749:17)
+      at TypeScriptParserMixin.parseExprAtom (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:4759:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10831:21)
+      at /data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:9775:39
+      at TypeScriptParserMixin.tryParse (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:6907:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:9775:18)
+      at /data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10800:39
+      at TypeScriptParserMixin.allowInAnd (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:12426:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10800:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:12493:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11675:28)
+      at TypeScriptParserMixin.parseExprAtom (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11331:23)
+      at TypeScriptParserMixin.parseExprAtom (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:4764:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:9786:20)
+      at TypeScriptParserMixin.parseExpressionBase (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10780:39
+      at TypeScriptParserMixin.allowInAnd (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:12421:16)
+      at TypeScriptParserMixin.parseExpression (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:10780:17)
+      at TypeScriptParserMixin.parseReturnStatement (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:13142:28)
+      at TypeScriptParserMixin.parseStatementContent (/data/fl-system/cst/fl-system/node_modules/@babel/parser/lib/index.js:12798:21)
